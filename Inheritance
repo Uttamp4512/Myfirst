@@ -14,11 +14,21 @@ System.out.println(x+y);
 }
 }
 
+class D
+{
+int k=8;
+void sub()
+{
+System.out.println(y-k);
+}
+
 class C
 {
 public static void main(String args[])
 {
 B z=new B();
+D q=new D();
 z.add();
+q.sub();
 }
 }
