@@ -1,10 +1,12 @@
 class A
 {
+//parent class 
 int x=5;
 }
 
 class B extends A
 {
+//child class
 int y=10;
 void add()
 {
